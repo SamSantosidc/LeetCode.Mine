@@ -14,6 +14,8 @@ public class problem4 {
         for (int num : nums2) {
             mergedNums[index++] = num;
         }
+
+        //Bubble sort.
         for (int i = 0; i < mergedNums.length - 1; i++) {
             for (int j = 0; j < mergedNums.length - 1 - i; j++) {
                 if (mergedNums[j] > mergedNums[j + 1]) {
